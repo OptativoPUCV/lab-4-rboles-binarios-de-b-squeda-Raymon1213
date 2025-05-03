@@ -180,7 +180,7 @@ Pair * upperBound(TreeMap * tree, void* key) {
             current = current->right;
         }
     }
-    return ub_node;
+    return ub_node->pair;
 }
 
 Pair * firstTreeMap(TreeMap * tree) {
