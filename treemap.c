@@ -184,6 +184,7 @@ Pair * upperBound(TreeMap * tree, void* key) {
         if(ub_node != NULL && is_equal(tree,current->pair->key,key)){
             ub_node = current;
             return ub_node->pair;
+        }
     }
     return ub_node->pair;
 }
