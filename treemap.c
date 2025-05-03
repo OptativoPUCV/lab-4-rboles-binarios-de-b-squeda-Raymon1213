@@ -178,7 +178,8 @@ Pair * upperBound(TreeMap * tree, void* key) {
             current = current->left;
         }
         else{
-            current = current->right;
+            ub_node = current->right;
+            return ub_node->pair;
         }
     }
     return ub_node->pair;
