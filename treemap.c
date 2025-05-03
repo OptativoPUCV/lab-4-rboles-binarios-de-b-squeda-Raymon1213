@@ -181,7 +181,7 @@ Pair * upperBound(TreeMap * tree, void* key) {
             }
             current = current->right;
         }
-        else(ub_node != NULL && is_equal(tree,current->pair->key,key)){
+        else{
             ub_node = current;
             return ub_node->pair;
         }
