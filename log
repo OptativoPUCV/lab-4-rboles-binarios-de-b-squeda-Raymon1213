@@ -232,3 +232,21 @@ Sat, May  3, 2025  7:10:31 PM:
  1 file changed, 1 insertion(+)
  tests:  0|0
 505d655
+Sat, May  3, 2025  7:13:22 PM: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+Compilation failed
+In file included from test.c:4:
+treemap.c: In function 'upperBound':
+treemap.c:184:30: warning: value computed is not used [-Wunused-value]
+  184 |         else(ub_node != NULL && is_equal(tree,current->pair->key,key)){
+      |                              ^~
+treemap.c:184:71: error: expected ';' before '{' token
+  184 |         else(ub_node != NULL && is_equal(tree,current->pair->key,key)){
+      |                                                                       ^
+      |                                                                       ;
+test.c: At top level:
+test.c:6:8: warning: '_strdup' redeclared without dllimport attribute: previous dllimport ignored [-Wattributes]
+    6 | char * _strdup(const char * str) {
+      |        ^~~~~~~
+b620039
