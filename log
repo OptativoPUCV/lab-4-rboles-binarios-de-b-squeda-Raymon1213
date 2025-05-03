@@ -46,3 +46,22 @@ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64
 C:/Users/Ramon/Desktop/Lab4/lab-4-rboles-binarios-de-b-squeda-Raymon1213/test.c:52:(.text+0x162): undefined reference to `_createTreeNode'
 collect2.exe: error: ld returned 1 exit status
 4ada197
+Sat, May  3, 2025  5:15:25 PM: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+Compilation failed
+In file included from test.c:4:
+treemap.c: In function 'insertTreeMap':
+treemap.c:52:26: warning: implicit declaration of function '_createTreeNode'; did you mean 'createTreeNode'? [-Wimplicit-function-declaration]
+   52 |     TreeNode* new_node = _createTreeNode(key, value);
+      |                          ^~~~~~~~~~~~~~~
+      |                          createTreeNode
+treemap.c:52:26: warning: initialization of 'TreeNode *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+test.c: At top level:
+test.c:6:8: warning: '_strdup' redeclared without dllimport attribute: previous dllimport ignored [-Wattributes]
+    6 | char * _strdup(const char * str) {
+      |        ^~~~~~~
+C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\Ramon\AppData\Local\Temp\ccUSBMA8.o: in function `insertTreeMap':
+C:/Users/Ramon/Desktop/Lab4/lab-4-rboles-binarios-de-b-squeda-Raymon1213/test.c:52:(.text+0x162): undefined reference to `_createTreeNode'
+collect2.exe: error: ld returned 1 exit status
+d293336
