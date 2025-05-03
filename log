@@ -111,3 +111,20 @@ Sat, May  3, 2025  6:14:02 PM:
  tests:  20|2
 total_score: 45/70
 1f1e387
+Sat, May  3, 2025  6:36:26 PM: 
+ treemap.c | 21 ++++++++++++++++++++-
+ 1 file changed, 20 insertions(+), 1 deletion(-)
+Compilation failed
+test.c: In function 'nextTreeMap':
+test.c:503:5: warning: 'main' is normally a non-static function [-Wmain]
+  503 | int main( int argc, char *argv[] ) {
+      |     ^~~~
+test.c:606:1: error: expected declaration or statement at end of input
+  606 | }
+      | ^
+test.c:608: warning: control reaches end of non-void function [-Wreturn-type]
+test.c: At top level:
+test.c:503:5: warning: 'main' defined but not used [-Wunused-function]
+  503 | int main( int argc, char *argv[] ) {
+      |     ^~~~
+dd16d41
