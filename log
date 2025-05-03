@@ -65,3 +65,9 @@ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64
 C:/Users/Ramon/Desktop/Lab4/lab-4-rboles-binarios-de-b-squeda-Raymon1213/test.c:52:(.text+0x162): undefined reference to `_createTreeNode'
 collect2.exe: error: ld returned 1 exit status
 d293336
+Sat, May  3, 2025  5:16:02 PM: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|7
+total_score: 5/70
+96230aa
